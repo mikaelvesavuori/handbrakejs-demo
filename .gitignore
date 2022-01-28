@@ -1,0 +1,4 @@
+*.mp4
+.dccache
+.env
+node_modules/

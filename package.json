@@ -1,0 +1,30 @@
+{
+  "name": "handbrakejs-demo",
+  "version": "1.0.0",
+  "description": "Just a very basic example of using handbrake-js to transcode a video.",
+  "author": "Mikael Vesavuori",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node index.ts"
+  },
+  "keywords": [
+    "handbrake-js",
+    "video-transcoding",
+    "video-encoding",
+    "video-automation",
+    "demo"
+  ],
+  "dependencies": {
+    "handbrake-js": "6"
+  },
+  "devDependencies": {
+    "@types/handbrake-js": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "eslint-plugin-prettier": "latest",
+    "prettier": "2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.5"
+  }
+}
